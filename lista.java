@@ -23,5 +23,8 @@ public class lista{
         //Famoso Print
 
         System.out.println("O nome é " + frase);
+        System.out.println(oneLength);
+        System.out.println(twoLenght);
+        System.out.println(threeLenght);
     }
 }
