@@ -35,9 +35,9 @@ class SimpleDotComGame {
 
             numOfGuess++;
 
-            if (result.equals("kill")) {
+            if (result.equals("Kill")) {
                 isAlive = false;
-                System.out.println("Você usou " + numOfGuess + "palpites");
+                System.out.println("Você usou " + numOfGuess + " palpites");
             }
         }
     }
