@@ -1,12 +1,16 @@
 import java.io.* ;
 import java.util.* ;
 import java.util.jar.Attributes.Name;
-
-class DotComBust {
+interface Pets{
+    public abstract void doRoam();
+}
+class DotComBust implements Pets {
     private GameHelper helper = new GameHelper();
     private ArrayList<DotCom> dotComsList = new ArrayList<DotCom>();
     private int numOfGuess = 0;
+    public void doRoam() {
 
+    }
     private void setUpGame() {
         DotCom one = new DotCom();
         one.setName("Pets.com");
