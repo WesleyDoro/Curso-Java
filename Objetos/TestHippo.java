@@ -15,5 +15,6 @@ public class TestHippo {
         System.out.println("Iniciando...");
         Hippo h = new Hippo();
         System.out.println("Objetos criados e programa inicializado.");
+        h.getClass();
     }
 }
